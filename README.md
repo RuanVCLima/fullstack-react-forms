@@ -2,11 +2,6 @@
 
 A responsive event registration form built with React and TypeScript, featuring form management and schema-based validation with React Hook Form and Yup.
 
-## 📸 Preview
-
-![Event Form Preview](./public/preview.png)
-
-> Add your application screenshot as `public/preview.png` to display it here.
 
 ## 🚀 About the Project
 

@@ -6,7 +6,7 @@ body {
   align-items: center;
   justify-content: center;
 
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-optical-sizing: auto;
 
   background-color: rgb(12, 12, 12);
@@ -19,6 +19,8 @@ form {
   flex-direction: column;
   gap: 10px;
 
+  color: #fff;
+
   width: 312px;
 }
 
@@ -28,6 +30,7 @@ textarea {
   height: 52px;
   font-size: 14px;
   background-color: black;
+  color: #fff;
 
   border-radius: 7px;
 
@@ -35,7 +38,7 @@ textarea {
   padding: 0 12px;
 
   outline-color: #1349c3;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 textarea {
@@ -64,19 +67,19 @@ button:hover {
   filter: brightness(0.9);
 }
 
-input[type="date"] {
+input[type='date'] {
   position: relative;
   color: #fff;
 }
 
-input[type="date"]::-webkit-calendar-picker-indicator {
+input[type='date']::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
 
-input[type="date"]::before {
-  content: "";
+input[type='date']::before {
+  content: '';
   position: absolute;
-  background: url("./assets/calendar.svg") center/contain;
+  background: url('./assets/calendar.svg') center/contain;
   right: 1rem;
   width: 1.25rem;
   height: 1.25rem;
@@ -87,11 +90,11 @@ input[type="date"]::before {
 
 select {
   appearance: none;
-  background: url("./assets/arrow-down.svg") no-repeat calc(100% - 1rem);
+  background: url('./assets/arrow-down.svg') no-repeat calc(100% - 1rem);
   color: #fff;
 }
 
-select option{
+select option {
   background-color: #000;
   color: #fff;
 }
